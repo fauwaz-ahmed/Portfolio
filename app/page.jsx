@@ -9,6 +9,9 @@ export default function Home() {
   const handleClick = () => {
     router.push("/contact");
   };
+  const myWorkClick = () => {
+    router.push("/portfolio");
+  };
   return (
     <motion.div
       className="h-full"
@@ -20,7 +23,7 @@ export default function Home() {
         {/* IMAGE CONTAINER */}
         <div className=" h-1/2 lg:h-full lg:w-1/2  relative rounded-full">
           <Image
-            src="/profile.jpg"
+            src="/profilepic.jpg"
             alt="profile pic"
             fill
             className="object-cover "
@@ -47,7 +50,7 @@ export default function Home() {
 
           {/* <button> */}
           <div className="flex gap-4">
-            <button className="p-2 rounded-lg ring-1 ring-black bg-black text-white cursor-pointer">
+            <button className="p-2 rounded-lg ring-1 ring-black bg-black text-white cursor-pointer" onClick={ myWorkClick}>
               My Work
             </button>
             <button

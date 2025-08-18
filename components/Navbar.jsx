@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 // import { IoMenu } from "react-icons/io5";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -101,36 +101,14 @@ const Navbar = () => {
         </a>
         <a
           className="cursor-pointer"
-          href="https://www.linkedin.com/in/fauwaz-ahmed"
+          href="https://github.com/fauwaz-ahmed"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin style={{ width: 24, height: 24 }} />
+          <FaGithub style={{ width: 24, height: 24 }} />
         </a>
-        <a
-          className="cursor-pointer"
-          href="https://www.linkedin.com/in/fauwaz-ahmed"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin style={{ width: 24, height: 24 }} />
-        </a>
-        <a
-          className="cursor-pointer"
-          href="https://www.linkedin.com/in/fauwaz-ahmed"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin style={{ width: 24, height: 24 }} />
-        </a>
-        <a
-          className="cursor-pointer"
-          href="https://www.linkedin.com/in/fauwaz-ahmed"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin style={{ width: 24, height: 24 }} />
-        </a>
+       
+        
        
        
       </div>
