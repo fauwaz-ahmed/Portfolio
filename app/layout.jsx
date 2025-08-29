@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 // import Navbar from "@/components/Navbar";
 import AnimateExit from "@/components/AnimateExit";
-
+import ChatWidget from "@/components/chat/ChatWidget";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AnimateExit>{children}</AnimateExit>
+        <AnimateExit>{children}
+          <ChatWidget />
+        </AnimateExit>
       </body>
     </html>
   );
